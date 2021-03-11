@@ -530,7 +530,7 @@ button {
   border-radius: $corner-radius;
   background-color: $surface-z8;
   color: $on-surface;
-  font-weight: 500;
+  font-weight: bold;
 
   @extend %ripple;
   @include ink-color($on-surface, $on: $surface-z8, $button-style: "raised");

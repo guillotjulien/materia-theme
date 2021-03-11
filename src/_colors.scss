@@ -84,9 +84,9 @@ $state-overlay-opacities: (
 }
 
 // Private variables for dark background colors
-$-dark-surface-z0: #121212;
+$-dark-surface-z0: #293035;
 $-dark-surface-z1: mix(white, $-dark-surface-z0, 5%);
-$-dark-surface-z4: mix(white, $-dark-surface-z0, 9%);
+$-dark-surface-z4: $-dark-surface-z0;
 $-dark-surface-z8: mix(white, $-dark-surface-z0, 12%);
 $-dark-surface-switch-thumb: mix(white, $-dark-surface-z0, 60%);
 
@@ -94,13 +94,13 @@ $-dark-surface-switch-thumb: mix(white, $-dark-surface-z0, 60%);
 // Main colors
 //
 
-$surface-z0: #f9f9f9;
+$surface-z0: #FAFBFC;
 $surface-z1: #fff;
 $surface-z8: #fff;
 $surface-switch-thumb: #fff;
 $on-surface: on($surface-z0);
 
-$primary-on-light: #1967d2;
+$primary-on-light: #608FDD;
 $primary-on-dark: #8ab4f8;
 $primary: $primary-on-light;
 $on-primary: on($primary);
@@ -137,15 +137,15 @@ $on-scrim: on($scrim);
 $scrim-alt: rgba(black, .3);
 $on-scrim-alt: on($scrim-alt);
 
-$panel: #212121;
+$panel: #464E53;
 $on-panel: on($panel);
 
 // for Unity panel which doesn't allow translucent colors
 $panel-solid: $panel;
 $on-panel-solid: on($panel-solid);
 
-$titlebar: #424242;
-$titlebar-backdrop: #303030;
+$titlebar: $-dark-surface-z0;
+$titlebar-backdrop: #222D32;
 $on-titlebar: on($titlebar);
 
 $titlebar-indicator: currentcolor;

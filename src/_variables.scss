@@ -7,26 +7,26 @@ $asset-suffix: if($dark-theme, "-dark", "");
 // Sizes
 //
 
-$container-padding: 6px;
-$small-size: 24px;
-$medium-size: 36px;
-$large-size: 48px;
+$container-padding: 8px;
+$small-size: 36px;
+$medium-size: 48px;
+$large-size: 60px;
 
 @if $compact {
-  $container-padding: 4px;
+  $container-padding: 6px;
   $small-size: 24px;
   $medium-size: 32px;
   $large-size: 40px;
 }
 
 $bar-size: 4px;
-$menuitem-size: 28px;
+$menuitem-size: 36px;
 
 //
 // Radii
 //
 
-$corner-radius: 4px;
+$corner-radius: 2px;
 $circular-radius: 9999px;
 
 //

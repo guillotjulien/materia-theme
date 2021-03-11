@@ -1,5 +1,5 @@
 project(
-  'materia-theme',
+  'materia-rework-theme',
   version: '20200916',
   license: 'GPLv2+',
   meson_version: '>= 0.47.0',

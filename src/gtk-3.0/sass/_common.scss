@@ -559,7 +559,7 @@ button {
   padding: ($medium-size - 24px) / 2 ($medium-size - 16px) / 2;
   border-radius: $corner-radius;
   color: $on-surface;
-  font-weight: 500;
+  font-weight: bold;
 
   @extend %ripple;
   @include ink-color($on-surface, $button-style: "raised", $on: $surface-z8);
